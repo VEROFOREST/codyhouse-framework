@@ -34,7 +34,7 @@ include '../partials/header.php'
     <div class="drawer js-drawer" id="drawer1">
       <div class="drawer__content" role="alertdialog"  aria-labelledby="drawerTitle1">
         <div class="drawer__body padding-x-md padding-y-sm js-drawer__body justify-center">
-          <div class="text-component">
+          <div class="text-component grid justify-center">
               
               <div class="col-6@md col-7@lg">
                 
@@ -43,9 +43,9 @@ include '../partials/header.php'
                   <figcaption class="sr-only">Image Caption</figcaption>
                 </figure>
               </div>
-              <h4 id="drawerTitle1">L'évasion</h4>
+              <h4 id="drawerTitle1">L'évasion-42 mètres</h4>
               <p>Lorem ipsum dolor sit amet, consectetur sint et velit beatae voluptatem. Quisquam sapiente aliquam consequatur doloribus. Exercitationem facere ratione laborum magnam libero quis excepturi accusamus?</p>
-            </div>
+              
           </div>
         </div>
 
@@ -54,7 +54,7 @@ include '../partials/header.php'
         </button>
       </div>
   </div>
-  </section>
+</section>
     <div class="newsletter-card">
       <div class="margin-bottom-sm">
         <div class="grid gap-xs justify-center">
@@ -98,17 +98,17 @@ include '../partials/header.php'
  <?php 
  for ($i=1;$i<=12;$i++):?>
   <div class="card card--is-link col-3">
-    <a class="card__link" href="../views/product.php" aria-label="Description of the link">
+    <!-- <a class="card__link" href="./views/product.php" aria-label="Description of the link"> -->
       <figure class="card__img">
         <a href="../views/product.php"><img src="../pictures/yacht2.jpg" alt="Card preview img"></a>
-        <div class="card__link-icon" aria-hidden="true">
+        <!-- <div class="card__link-icon" aria-hidden="true">
           <svg class="icon" viewBox="0 0 32 32"><g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" fill="none" stroke-miterlimit="10"><path d="M21,5s-4.333-1.667-7,1L6,14c-2.667,2.667-1,7-1,7"></path><path d="M27,11s1.667,4.333-1,7l-8,8c-2.667,2.667-7,1-7,1"></path> <line x1="12" y1="20" x2="4" y2="28"></line><line x1="28" y1="4" x2="20" y2="12"></line></g></svg>
-        </div>
+        </div> -->
       </figure>
     
       <div class="card__content">
         <div class="text-component">
-          <h4>Title of the Card</h4>
+          <a href="../views/product.php"><h4>Title of the Card</h4></a>
           <p class="text-sm color-contrast-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, suscipit.</p>
         </div>
       </div>
